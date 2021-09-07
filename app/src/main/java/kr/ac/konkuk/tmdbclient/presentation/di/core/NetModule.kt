@@ -1,4 +1,4 @@
-package kr.ac.konkuk.tmdbclient.presentation.di
+package kr.ac.konkuk.tmdbclient.presentation.di.core
 
 import dagger.Module
 import dagger.Provides
