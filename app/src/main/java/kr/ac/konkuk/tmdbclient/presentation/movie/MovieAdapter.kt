@@ -1,4 +1,4 @@
-package kr.ac.konkuk.tmdbclient.presentation.di.movie
+package kr.ac.konkuk.tmdbclient.presentation.movie
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -23,8 +23,8 @@ class MovieAdapter():RecyclerView.Adapter<MyViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         // 1)
-        //to create view holder, we will get the layout inflator.
-        //create a databinding object for the layout using it
+        //to create view holder, we will get the layout inflater.
+        //create a dataBinding object for the layout using it
         //and then, construct a view holder passing that data binding object.
         val layoutInflater = LayoutInflater.from(parent.context)
         //we need to provide the object type
