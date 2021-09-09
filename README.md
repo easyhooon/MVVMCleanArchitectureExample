@@ -1,1 +1,1 @@
-"# MVVMCleanArchitectureExample" 
+"# MVVM + CleanArchitecture + Dagger2" 
